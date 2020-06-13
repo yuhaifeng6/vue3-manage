@@ -5,6 +5,9 @@ import store from './store'
 
 Vue.config.productionTip = false
 
+import VueCompositionApi from "@vue/composition-api"
+Vue.use(VueCompositionApi)
+
 new Vue({
   router,
   store,
